@@ -1,4 +1,5 @@
-/* Programa classifica as faixas etárias em crianças, adolescentes, adultos e idoso a partir de uma data informada, 
+/*Exercício 2 
+Programa classifica as faixas etárias em crianças, adolescentes, adultos e idoso a partir de uma data informada, 
 utilizando a estrutura de controle if-else */
 
 const prompt = require('prompt-sync')()
