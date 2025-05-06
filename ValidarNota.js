@@ -1,4 +1,4 @@
-/*Exercício 2 
+/*Exercício 3
 Programa classifica se em Aprovado, Recuperação e Reprovado a pratir de uma nota informada, 
 utilizando a estrutura de controle if-else */
 
