@@ -1,5 +1,5 @@
 /* Execício 13
- Programa faz uma média aritmética de números digitados até que o usuario digite 1,
+ Programa faz uma média aritmética de números digitados até que o usuario digite 0,
  utilizando o loop do...while. */
 
 const prompt = require('prompt-sync')()
