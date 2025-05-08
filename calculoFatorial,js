@@ -1,0 +1,22 @@
+/* Execício 14
+ Programa faz o calculo do fatorial de um numero digitado pelo usuario,
+ utilizando o loop while. */
+
+const prompt = require('prompt-sync')()
+
+let fatorial = Number(prompt('Digite o número que você quer fatorar: '))
+let numeroFatorado = 1
+
+if(fatorial< 0){
+    console.log('Não é possivel calcular o fatorial de um número negativo.')
+}else if(fatorial === 0 || fatorial === 1){
+    console.log('O Farotial de '+ fatorial + ' é: 1')
+}else{
+    let contador = 1
+    while (contador <= fatorial) {
+        numeroFatorado = numeroFatorado * contador
+        contador++
+    }
+    
+    console.log('O Farotial de '+ fatorial + ' é: '+ numeroFatorado)
+}
